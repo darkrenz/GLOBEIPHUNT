@@ -15,7 +15,7 @@ gtm() {
     echo "██║██╔═══╝░██╔══██║██║░░░██║██║╚████║░░░██║░░░"
     echo "██║██║░░░░░██║░░██║╚██████╔╝██║░╚███║░░░██║░░░"
     echo "╚═╝╚═╝░░░░░╚═╝░░╚═╝░╚═════╝░╚═╝░░╚══╝░░░╚═╝░░░"
-    echo "${RED}MODIFIED BY ${YELLOW}NOTE
+    echo "${RED}MODIFIED BY ${YELLOW}NOTE"
     echo -e "${NC}"
     while true; do
         if curl -s -D- http://google.com -x "google.com:80" | grep -q "msisdn"; then
